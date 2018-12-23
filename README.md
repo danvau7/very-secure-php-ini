@@ -8,12 +8,21 @@ how to properly and securely configure the entire php.ini file for the latest ve
 # Most Important Values - (Draft)
 
 expose_php = Off
+
 display_errors = Off
+
 allow_url_include = Off
+
 session.cookie_httponly = 1
+
 session.use_strict_mode   = 1
+
 session.cookie_secure     = 1
+
 session.cookie_samesite   = Strict
+
 session.use_trans_sid = 0
+
 session.sid_length = 128
+
 session.sid_bits_per_character = 6
