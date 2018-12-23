@@ -1,10 +1,6 @@
 # very-secure-php-ini
 how to properly and securely configure the entire php.ini file for the latest version of PHP
 
-# Introduction:
-
-1. This is the single best place to go to look up php.ini values: http://php.net/manual/en/ini.list.php. See what each value that you want to learn about does, if current values in your php.i.ni file have been deprecated in the current release, etc.
-
 # Most Important Values - (Draft)
 
 expose_php = Off
@@ -26,3 +22,7 @@ session.use_trans_sid = 0
 session.sid_length = 128
 
 session.sid_bits_per_character = 6
+
+# Further Info:
+
+1. This is the single best place to go to look up php.ini values: http://php.net/manual/en/ini.list.php. See what each value that you want to learn about does, if current values in your php.ini file have been deprecated in the current release, etc.
