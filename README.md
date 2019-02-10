@@ -28,7 +28,7 @@ session.cookie_samesite   = Strict
 session.use_trans_sid = 0
 - you don't need this always make sure this is off
 
-session.sid_length = 256
+session.sid_length = 128
 - length of session string, prevents brute force attacks
 
 session.sid_bits_per_character = 6
